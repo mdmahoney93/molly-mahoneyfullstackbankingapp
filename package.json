@@ -1,6 +1,6 @@
 {
-  "homepage": "https://mdmahoney93.github.io/mollymahoneyfullstackbankingapp/",
-  "name": "mollymahoneyfullstackbankingapp",
+  "homepage": "https://mdmahoney93.github.io/molly-mahoneyfullstackbankingapp/",
+  "name": "molly-mahoneyfullstackbankingapp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -48,15 +48,15 @@
       "last 1 safari version"
     ]
   },
-  "description": "https://mdmahoney93.github.io/mollymahoneyfullstackbankingapp/",
+  "description": "https://mdmahoney93.github.io/molly-mahoneyfullstackbankingapp/",
   "main": "webpack.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mdmahoney93/mollymahoneyfullstackbankingapp.git"
+    "url": "git+https://github.com/mdmahoney93/molly-mahoneyfullstackbankingapp.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mdmahoney93/mollymahoneyfullstackbankingapp/issues"
+    "url": "https://github.com/mdmahoney93/molly-mahoneyfullstackbankingapp/issues"
   }
 }
