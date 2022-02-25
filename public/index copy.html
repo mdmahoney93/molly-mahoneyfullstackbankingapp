@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bank Smart not Hard</title>
+
+    <!-- bootstrap css -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="../syles.css" />
+    <!-- don't use this in production: -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <!--Load Div for React-->
+    <div id="root"></div>
+
+    <!-- Load React-->
+    <script
+      src="https://unpkg.com/react/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+
+    <script
+      src="https://unpkg.com/react-router@6.0.0/umd/react-router.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-router-dom@6.0.0/umd/react-router-dom.development.js"
+      crossorigin
+    ></script>
+
+    <!--Load React Components-->
+    <script src="./context.js" defer type="jsx"></script>
+    <script src="./components/Navbar.js" defer type="jsx"></script>
+    <script src="./components/AllData.js" defer type="jsx"></script>
+    <script src="./components/Balance.js" defer type="jsx"></script>
+    <script src="./components/CreateAccount.js" defer type="jsx"></script>
+    <script src="./components/Deposit.js" defer type="jsx"></script>
+    <script src="./Home.js" defer type="jsx"></script>
+    <script src="./components/Login.js" defer type="jsx"></script>
+    <script src="./components/Withdraw.js" defer type="jsx"></script>
+    <script src="./App.js" defer type="jsx"></script>
+    <script src="./index.js" defer type="jsx"></script>
+  </body>
+</html>

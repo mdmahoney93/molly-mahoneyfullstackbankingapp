@@ -1,0 +1,186 @@
+body {
+  background-color: #d3bb34;
+  background-image: url("./images/bank3.gif");
+  padding: 30px;
+}
+
+h1 {
+  color: whitesmoke;
+}
+
+h3 {
+  text-shadow: 0 0 80px rgb(192 219 255 / 75%), 0 0 32px rgb(65 120 255 / 24%);
+}
+
+p {
+  color: whitesmoke;
+}
+
+.navbar {
+  background-color: rgba(204, 46, 46, 0.5);
+  -moz-box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 15px 20px 30px rgba(0, 0, 0, 0.5);
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+}
+
+.nav-link {
+  display: inline-block;
+  margin: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 40px;
+  text-decoration: none;
+  color: white;
+}
+
+.banner {
+  -moz-box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 15px 20px 30px rgba(0, 0, 0, 0.5);
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+}
+
+.active {
+  background: rgb(213, 158, 39);
+  height: 80%;
+  background-size: 100% 80%;
+
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+}
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.nav-bar-greeting {
+  padding-left: 15px;
+  font-size: x-small;
+}
+
+.home-icon {
+  margin-left: auto;
+  transform: scale(2);
+  color: #d3bb34;
+
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+.home-icon:hover {
+  transform: scale(3);
+}
+.card {
+  background-color: #5ec7c6;
+  position: relative;
+  margin-left: 5%;
+  color: #ffffff;
+  display: flex;
+  -moz-box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 15px 20px 30px rgba(0, 0, 0, 0.5);
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+}
+
+.card:hover {
+  background-color: #d3bb34;
+}
+.card:p {
+  color: #8899a6;
+}
+.password-wrapper {
+  position: relative;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.eye-button {
+  color: #c51919;
+  position: absolute;
+  top: 25%;
+  right: 5%;
+}
+.eye-button:hover {
+  transform: scale(1.5);
+}
+
+.show-all-button {
+  position: absolute;
+  display: flex;
+  top: 10%;
+  right: 5%;
+}
+.show-all-button:hover {
+  color: rgb(var(--text-color));
+  border: 2px double transparent;
+  background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)),
+    radial-gradient(circle at left top, rgb(1, 110, 218), rgb(217, 0, 192));
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+
+.submit-login-button {
+  position: absolute;
+
+  right: 5%;
+  color: rgb(var(--text-color));
+  border: 2px double transparent;
+  background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)),
+    radial-gradient(circle at left top, rgb(237, 165, 11), rgb(134, 0, 217));
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+
+.submit-login-button:hover {
+  color: rgb(var(--text-color));
+  border: 2px double transparent;
+  background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)),
+    radial-gradient(circle at left bottom, rgb(216, 151, 37), rgb(140, 81, 235));
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+
+.list-group-item {
+  background-color: #c76a5e;
+  color: #ffffff;
+}
+.list-group-item:hover {
+  background-color: #65499f;
+  color: #ffffff;
+}
+.list-group-item:nth-child(2n) {
+  background-color: #d3bb34;
+  color: #ffffff;
+}
+.list-group-item:nth-child(2n):hover {
+  background-color: #5ec7c6;
+  color: #ffffff;
+}
+
+.choice-btn {
+  -moz-box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 15px 20px 30px rgba(0, 0, 0, 0.5);
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+}
+
+.transaction-card {
+  padding-bottom: 15px;
+}

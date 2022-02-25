@@ -1,0 +1,79 @@
+[
+  {
+    "firstName": "Jared",
+    "lastName": "Leto",
+    "email": "jleto@gmail.com",
+    "password": "joker",
+    "balance": 185,
+    "transactions": [
+      "Deposit $100",
+      "Deposit $50",
+      "Withdrawal $15",
+      "Deposit $100"
+    ],
+    "token": null
+  },
+  {
+    "firstName": "Margo",
+    "lastName": "Robbie",
+    "email": "robbie_margo@yahoo.com",
+    "password": "harley",
+    "balance": 5548,
+    "transactions": [
+      "Deposit $800",
+      "Deposit $800",
+      "Deposit $100",
+      "Deposit $1100",
+      "Withdrawal $2000",
+      "Withdrawal $52",
+      "Deposit $800"
+    ],
+    "token": null
+  },
+  {
+    "firstName": "Cinder",
+    "lastName": "Ella",
+    "email": "cinderella@gmail.com",
+    "password": "glassslipper",
+    "balance": 5548,
+    "transactions": [
+      "Deposit $1200",
+      "Deposit $1200",
+      "Deposit $1200",
+      "Deposit $1200",
+      "Withdrawal $2000",
+      "Withdrawal $52",
+      "Deposit $800"
+    ],
+    "token": null
+  },
+  {
+    "firstName": "Polly",
+    "lastName": "Pocket",
+    "email": "polly_p_pocket@protonmail.com",
+    "password": "dolly",
+    "balance": 1200,
+    "transactions": ["Deposit $1200"],
+    "token": null
+  },
+
+  {
+    "firstName": "Bobby",
+    "lastName": "Joe",
+    "email": "BJoe@mit.edu",
+    "password": "number1student",
+    "balance": 0,
+    "transactions": [],
+    "token": null
+  },
+
+  {
+    "firstName": "Mary",
+    "lastName": "Jane",
+    "email": "MaryJane@gmail.com",
+    "password": "apriltwenty",
+    "balance": 0,
+    "transactions": [],
+    "token": null
+  }
+]
