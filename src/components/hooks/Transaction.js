@@ -97,7 +97,7 @@ const Transaction = (props) => {
           type="submit"
           disabled={!isValid}
           width="80"
-          value={`Make A ${atmMode == "Deposit" ? atmMode : `${atmMode}al`}`}
+          value={`Make A ${atmMode === "Deposit" ? atmMode : `${atmMode}al`}`}
           id="submit-input"
         ></input>
       </div>
@@ -112,7 +112,7 @@ const Transaction = (props) => {
             key="transaction-card"
             bgcolor="light"
             header={status}
-            title={atmMode == "Deposit" ? atmMode : `${atmMode}al`}
+            title={atmMode === "Deposit" ? atmMode : `${atmMode}al`}
             status={error}
             text=""
             body={
@@ -136,15 +136,15 @@ const Transaction = (props) => {
                     disabled={!validTransaction}
                     id="submit-input"
                   >{`Make A ${
-                    atmMode == "Deposit" ? atmMode : `${atmMode}al`
+                    atmMode === "Deposit" ? atmMode : `${atmMode}al`
                   }`}</Button>
                 </div>
               </form>
             }
           />
-          <NavLink to={atmMode == "Deposit" ? "/withdraw" : "/deposit"}>
+          <NavLink to={atmMode === "Deposit" ? "/withdraw" : "/deposit"}>
             <Button className="btn-info col-lg-11 choice-btn" variant="primary">
-              Need to make a {atmMode == "Deposit" ? "Withdrawal" : "Deposit"}{" "}
+              Need to make a {atmMode === "Deposit" ? "Withdrawal" : "Deposit"}{" "}
               instead?
             </Button>
           </NavLink>

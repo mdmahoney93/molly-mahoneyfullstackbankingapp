@@ -67,7 +67,7 @@ const CreateAccount = ({ children }) => {
       return false;
     }
 
-    if (label == "password" && field.length < 8) {
+    if (label === "password" && field.length < 8) {
       setStatus("Passwords need to be at least 8 characters");
       setTimeout(() => setStatus(""), 3000);
       //console.log(field.length);
@@ -187,7 +187,7 @@ const CreateAccount = ({ children }) => {
                 (values.firstName &&
                   values.lastName &&
                   values.email &&
-                  values.password.length >= 8) == true
+                  values.password.length >= 8) === true
               ) {
                 //console.log(values.firstName);
                 //console.log(values.lastName);

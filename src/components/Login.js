@@ -35,7 +35,7 @@ export default function Login({ token, setToken }) {
 
   const loginUser = () => {
     const userFound = updateList.find(function (userArray) {
-      return userArray.email == username;
+      return userArray.email === username;
     });
 
     if (!userFound) {
@@ -47,7 +47,7 @@ export default function Login({ token, setToken }) {
     }
 
     const checkPassword = () => {
-      if (userFound.password == password) {
+      if (userFound.password === password) {
         console.log("login success");
         return "Success";
       } else {
@@ -62,7 +62,7 @@ export default function Login({ token, setToken }) {
       password,
     });
 
-    if (verify == "Success") {
+    if (verify === "Success") {
       console.log("return token");
       userFound.token = "test123";
       console.log(userFound);
@@ -70,7 +70,7 @@ export default function Login({ token, setToken }) {
       console.log(currentUser);
       return "test123";
     }
-    if (verify == "Failed") {
+    if (verify === "Failed") {
       setFailedLogin(
         "Either the username or password you entered were incorrect. Please, try again."
       );
