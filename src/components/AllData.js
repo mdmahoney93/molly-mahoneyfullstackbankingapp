@@ -19,11 +19,11 @@ const AllData = () => {
 
   return (
     <div>
-      <Card style={{ width: "80%" }}>
+      <Card style={{ width: "90%" }}>
         <Card.Body>
           <Card.Title>All User Data</Card.Title>
           <Card.Text>
-            <Table responsive striped bordered hover variant="light">
+            <Table responsive striped bordered hover variant="info">
               <thead>
                 <tr>
                   <th>First Name</th>
@@ -54,7 +54,7 @@ const AllData = () => {
       <Container>
         <Row>
           {updateList.map((user, i) => (
-            <Card style={{ width: "30%", "margin-bottom": "20px" }}>
+            <Card style={{ width: "20%", margin: "10px" }}>
               <Card.Body>
                 <Card.Title>
                   {

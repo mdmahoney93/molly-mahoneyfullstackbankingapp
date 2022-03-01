@@ -101,7 +101,7 @@ const CreateAccount = ({ children }) => {
     updateList(createdUser);
     toggleShowConfirmation();
     setTimeout(() => {
-      alert(`Thanks for creating an account with us ${firstName}!`);
+      alert(`Thanks for creating an account with us${firstName}!`);
       //setSubmitting(false);
     }, 400);
     //setSubmitting(false);
@@ -280,12 +280,13 @@ const CreateAccount = ({ children }) => {
       >
         <Modal.Header>
           <img src="holder.js/20x20?text=%20" className="rounded me-2" alt="" />
-          <strong className="me-auto">Woohoo! Account Created!</strong>
+          <strong className="me-auto">Account Created Successfully!</strong>
           <small></small>
         </Modal.Header>
         <Modal.Body name={name}>
           {(name = prevUsers[prevUsers.length - 1].firstName)}
-          Thanks for creating an account with us {name}!
+          Thanks for creating an account with us{name}! Login now to get started
+          Banking Smart, or feel free to create another account! 🏦
         </Modal.Body>
         <Modal.Footer>
           <Button

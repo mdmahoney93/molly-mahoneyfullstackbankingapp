@@ -11,7 +11,7 @@ const Balance = () => {
   return (
     <Card
       bgcolor="dark"
-      header="BadBank Balance"
+      header="MDMBank Balance"
       title="Snapshot of your balance"
       text={
         user.transactions.length === 0

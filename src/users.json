@@ -60,7 +60,7 @@
   {
     "firstName": "Bobby",
     "lastName": "Joe",
-    "email": "BJoe@mit.edu",
+    "email": "bjoe@mit.edu",
     "password": "number1student",
     "balance": 0,
     "transactions": [],
@@ -70,10 +70,157 @@
   {
     "firstName": "Mary",
     "lastName": "Jane",
-    "email": "MaryJane@gmail.com",
+    "email": "maryjane@gmail.com",
     "password": "apriltwenty",
-    "balance": 0,
-    "transactions": [],
+    "balance": 420,
+    "transactions": ["Deposit $420"],
+    "token": null
+  },
+  {
+    "firstName": "Peter",
+    "lastName": "Piper",
+    "email": "peterpiper@mit.edu",
+    "password": "peppers1",
+    "balance": 875,
+    "transactions": [
+      "Deposit $100",
+      "Deposit $100",
+      "Deposit $100",
+      "Withdrawal $75",
+      "Deposit $100",
+      "Deposit $100",
+      "Deposit $300"
+    ],
+    "token": null
+  },
+  {
+    "firstName": "Chucky",
+    "lastName": "Cheese",
+    "email": "chuckycheese@gmail.com",
+    "password": "P!zz@PI3",
+    "balance": 175,
+    "transactions": ["Deposit $100", "Withdrawal $75"],
+    "token": null
+  },
+  {
+    "firstName": "Goldie",
+    "lastName": "Locks",
+    "email": "littlered@mit.edu",
+    "password": "bigteeth",
+    "balance": 80,
+    "transactions": ["Deposit $80"],
+    "token": null
+  },
+  {
+    "firstName": "Belle",
+    "lastName": "Baker",
+    "email": "beauty@yahoo.com",
+    "password": "bea$t",
+    "balance": 999,
+    "transactions": ["Deposit $100", "Deposit $900", "Withdrawal $1"],
+    "token": null
+  },
+  {
+    "firstName": "Ariel",
+    "lastName": "Waters",
+    "email": "mermaid@mit.edu",
+    "password": "underthe$3@",
+    "balance": 700000,
+    "transactions": ["Deposit $700000"],
+    "token": null
+  },
+  {
+    "firstName": "Snow",
+    "lastName": "White",
+    "email": "snowwhite@mit.edu",
+    "password": "7darwfs",
+    "balance": 111,
+    "transactions": [
+      "Deposit $700",
+      "Withdrawal $100",
+      "Withdrawal $100",
+      "Withdrawal $100",
+      "Withdrawal $100",
+      "Withdrawal $100",
+      "Withdrawal $89"
+    ],
+    "token": null
+  },
+  {
+    "firstName": "Princess",
+    "lastName": "Jasmine",
+    "email": "princess-jas@gmail.com",
+    "password": "magiccarpet",
+    "balance": 1000000,
+    "transactions": ["Deposit $500000", "Deposit $500000"],
+    "token": null
+  },
+  {
+    "firstName": "Homer",
+    "lastName": "Simpson",
+    "email": "donutsareforever@gmail.com",
+    "password": "d0nut$",
+    "balance": 2.5,
+    "transactions": ["Deposit $1", "Deposit $1", "Deposit $.50"],
+    "token": null
+  },
+  {
+    "firstName": "Bart",
+    "lastName": "Simpson",
+    "email": "barty@gmail.com",
+    "password": "skateordie",
+    "balance": 10,
+    "transactions": ["Deposit $10"],
+    "token": null
+  },
+  {
+    "firstName": "John",
+    "lastName": "Snow",
+    "email": "johnsnow@protonmail.com",
+    "password": "W!nT3r!$c0m!nG",
+    "balance": 88,
+    "transactions": ["Deposit $50", "Deposit $38"],
+    "token": null
+  },
+  {
+    "firstName": "Daenerys",
+    "lastName": "Targaryen",
+    "email": "queenofdragons@gmail.com",
+    "password": "dragonQueen",
+    "balance": 666666,
+    "transactions": ["Deposit $666666"],
+    "token": null
+  },
+  {
+    "firstName": "Tyrion",
+    "lastName": "Lannister",
+    "email": "yourneighborhooddrunk@gmail.com",
+    "password": "wineforeveryone",
+    "balance": -5,
+    "transactions": [
+      "Deposit $100",
+      "Withdraw $50",
+      "Withdraw $50",
+      "Overdraft -$5"
+    ],
+    "token": null
+  },
+  {
+    "firstName": "Sansa",
+    "lastName": "Stark",
+    "email": "daddysgirl@hotmail.com",
+    "password": "gold&silver",
+    "balance": 900,
+    "transactions": ["Deposit $900", "Withdrawal $900", "Deposit $900"],
+    "token": null
+  },
+  {
+    "firstName": "Arya",
+    "lastName": "Stark",
+    "email": "sharpshooter95@gmail.com",
+    "password": "games2008",
+    "balance": 375,
+    "transactions": ["Deposit $800", "Withdraw $425"],
     "token": null
   }
 ]

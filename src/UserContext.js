@@ -1,6 +1,6 @@
 import React from "react";
 
-const userTemplate =   {
+const userTemplate = {
   firstName: "",
   lastName: "",
   email: "",
@@ -8,7 +8,7 @@ const userTemplate =   {
   balance: 0,
   transactions: [],
   token: null,
-}
+};
 export const UserContext = React.createContext(userTemplate);
 const UserProvider = ({ children }) => {
   const [user, setUser] = React.useState(UserContext);
