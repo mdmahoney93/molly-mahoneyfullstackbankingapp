@@ -53,11 +53,19 @@ There's nearly 20 pre-made accounts, but here is a couple to try:
 
 ### Installation Guidelines (with screenshots):
 
-- Clear instructions on how to get your project up and running (e.g., git clone, git pull, npm init).
+To access my project on the cloud, simply go to the following link: https://molly-mahoneyfullstackbankingapplication.netlify.app/
+To install my project on to you local server, (first have git installed on your computer), through the terminal write to the console the following: git clone git@github.com:mdmahoney93/molly-mahoneyfullstackbankingapp.git /
+Then open folder molly-mahoneyfullstackbankingapp in VSCode. /
+Install npm dependencies: npm i
+Run npm: npm start
 
 ### Features:
 
 Your project’s features, and any future features you would like to include.
+Features include icons from react-icons, UI created with bootstrap styles, and had fun making the pages come to life with HTML CSS & JS.
+For future, I would like to a transfer feature where you can transfer from user to user. I think it would also be useful to have multiple accounts per user (i.e. credit, checking, saving)
+
+---
 
 ### MIT License
 
