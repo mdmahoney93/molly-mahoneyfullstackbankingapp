@@ -154,7 +154,7 @@ const Transaction = (props) => {
             <li className="list-group-item" key="title">
               {console.log(transactions.length)}
               {transactions.length === 0 ? (
-                <Alert variant="light">
+                <Alert variant="info">
                   No transactions to show yet. Try depositing some money!
                 </Alert>
               ) : !showAllTransactions && transactions.length > 7 ? (

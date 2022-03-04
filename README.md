@@ -31,7 +31,7 @@ This is specifically what makes this a "Bad" Bank.. Going to this tab will show 
 
 ## Premade Accounts to try
 
-There are four pre-made accounts.
+There's nearly 20 pre-made accounts, but here is a couple to try:
 
 ### Email: jleto@gmail.com
 
@@ -41,20 +41,21 @@ There are four pre-made accounts.
 
 ### Password: harley
 
-### Email: cinderella@gmail.com
+### Email: peterpiper@mit.edu
 
-### Password: glassslipper
+### Password: peppers1
 
-### Email: polly_p_pocket@protonmail.com
+### Email: snowwhite@mit.edu
 
-### Password: dolly
+### Password: 7darwfs
 
-## Screenshots:
+### Installation Guidelines (with screenshots):
 
-![Screen Shot 2022-02-04 at 12 50 37 PM](https://user-images.githubusercontent.com/83600327/152586340-e3b5003c-f9b5-4f1b-b585-2eadd411ab00.png)
-![Screen Shot 2022-02-04 at 12 51 02 PM](https://user-images.githubusercontent.com/83600327/152586352-36db7d93-eb0c-4eaf-9c67-a0a0b0cd1f50.png)
-![Screen Shot 2022-02-04 at 12 51 08 PM](https://user-images.githubusercontent.com/83600327/152586358-4b97aab8-9842-4696-a354-2cd86b2bab08.png)
-![Screen Shot 2022-02-04 at 12 51 31 PM](https://user-images.githubusercontent.com/83600327/152586368-c621224b-da69-4365-81af-b8438491328d.png)
+- Clear instructions on how to get your project up and running (e.g., git clone, git pull, npm init).
+
+### Features:
+
+Your project’s features, and any future features you would like to include.
 
 ### MIT License
 
@@ -77,8 +78,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-##### Other things to come to my README for the final:
-
-- Installation Guidelines: Clear instructions on how to get your project up and running (e.g., git clone, git pull, npm init).
-- Features: Your project’s features, and any future features you would like to include.

@@ -15,7 +15,7 @@ const Home = () => {
     <div>
       {user.firstName ? (
         <div>
-          <Alert variant="light">Hello, {user.firstName}</Alert>
+          <Alert variant="info">Hello, {user.firstName}</Alert>
         </div>
       ) : (
         ""
@@ -24,7 +24,7 @@ const Home = () => {
         bgcolor="dark"
         header="Welcome to MDM Banking!"
         title="Bank Smart not Hard"
-        text="Create an account or log in now to start banking with us!"
+        text="Create an account or login now to start banking with us!"
         body={<img src={BankImage} className="img-fluid" alt="bank logo" />}
       />
     </div>
