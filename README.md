@@ -33,21 +33,23 @@ This is specifically what makes this a "Bad" Bank.. Going to this tab will show 
 
 There's nearly 20 pre-made accounts, but here is a couple to try:
 
-### Email: jleto@gmail.com
+#### Email: jleto@gmail.com
 
-### Password: joker
+#### Password: joker
 
-### Email: robbie_margo@yahoo.com
+#### Email: robbie_margo@yahoo.com
 
-### Password: harley
+#### Password: harley
 
-### Email: peterpiper@mit.edu
+#### Email: peterpiper@mit.edu
 
-### Password: peppers1
+#### Password: peppers1
 
-### Email: snowwhite@mit.edu
+#### Email: snowwhite@mit.edu
 
-### Password: 7darwfs
+#### Password: 7darwfs
+
+---
 
 ### Installation Guidelines (with screenshots):
 
