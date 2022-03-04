@@ -52,11 +52,15 @@ There's nearly 20 pre-made accounts, but here is a couple to try:
 
 ### Installation Guidelines (with screenshots):
 
-To access my project on the cloud, simply go to the following link: https://molly-mahoneyfullstackbankingapplication.netlify.app/. 
-To install my project on to you local server, (first have git installed on your computer), through the terminal write to the console the following: git clone git@github.com:mdmahoney93/molly-mahoneyfullstackbankingapp.git /. 
-Then open folder molly-mahoneyfullstackbankingapp in VSCode. /. 
-Install npm dependencies: npm i. 
-Run npm: npm start. 
+To access my project on the cloud, simply go to the following link: https://molly-mahoneyfullstackbankingapplication.netlify.app/  
+![Screen Shot 2022-03-04 at 10 58 06 AM](https://user-images.githubusercontent.com/83600327/156806402-62012a2f-957b-4900-8829-6d5a192d85cf.png)
+
+To install my project on to you local server, (first have git installed on your computer), through the terminal write to the console the following: git clone git@github.com:mdmahoney93/molly-mahoneyfullstackbankingapp.git / 
+![Screen Shot 2022-03-04 at 11 00 21 AM](https://user-images.githubusercontent.com/83600327/156806757-defc2430-a798-443a-8b62-9acdf1d32812.png)
+
+Then open folder molly-mahoneyfullstackbankingapp in VSCode. /  
+Install npm dependencies: npm i   
+Run npm: npm start  
 
 ### Features:
 
