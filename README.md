@@ -61,6 +61,9 @@ To install my project on to you local server, (first have git installed on your 
 Then open folder molly-mahoneyfullstackbankingapp in VSCode. /  
 Install npm dependencies: npm i   
 Run npm: npm start  
+![Screen Shot 2022-03-04 at 3 22 52 PM](https://user-images.githubusercontent.com/83600327/156843448-3bfc77e4-9b4d-4ce1-a1e7-113ea6a422de.png)
+
+Login / Create an account using one of the pre-made accounts above
 
 ### Features:
 
