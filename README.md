@@ -6,7 +6,7 @@ https://molly-mahoneyfullstackbankingapplication.netlify.app/
 
 ## Description/Motivation:
 
-[UPDATE] This is a Full Stack Development project that was made with MERN Stack, using Create React App, styling with Bootstrap, and utlizing HTML, CSS, JS (React, Express, Node) and MongoDB.
+This is a Full Stack Development project that was made with MERN Stack, using Create React App, styling with Bootstrap, and utlizing HTML, CSS, JS (React, Express, Node) and MongoDB.
 
 The purpose of this app, aside from presenting my knowledge of how to create a full stack application, is to use this fictional but interactive banking system to create an account, deposit and withdrawl "money" and then see your balance.
 
