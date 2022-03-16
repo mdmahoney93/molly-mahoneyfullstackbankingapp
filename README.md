@@ -67,7 +67,6 @@ Login / Create an account using one of the pre-made accounts above
 
 ### Features:
 
-Your project’s features, and any future features you would like to include.
 Features include icons from react-icons, UI created with bootstrap styles, and had fun making the pages come to life with HTML CSS & JS.
 For future, I would like to a transfer feature where you can transfer from user to user. I think it would also be useful to have multiple accounts per user (i.e. credit, checking, saving)
 
